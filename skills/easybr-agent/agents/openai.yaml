@@ -1,0 +1,4 @@
+interface:
+  display_name: "EasyBR 对话助手"
+  short_description: "在 Mac 上检查安装和登录、创建环境、操作网页并诊断连接问题"
+  default_prompt: "使用 $easybr-agent 检查我的 Mac 上的 EasyBR，按我的要求完成接入和浏览器任务。"
