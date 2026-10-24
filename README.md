@@ -92,9 +92,10 @@ EasyBR 内置 Bridge 使用客户端自己的运行时；用户无需为了它�
 - [AI 对话上手与排障](docs/AI-QUICKSTART.md)
 - [可复制任务指令库](docs/AI-PROMPTS.md)
 - [官网帮助教程](https://www.ebrower.com/helperdoc/easybrintroduce.html)
-- [Mac：通过 AI 对话使用 EasyBR](https://www.ebrower.com/helperdoc/ai-browser-mac.html)
+- [Windows / Mac：通过 AI 对话使用 EasyBR](https://www.ebrower.com/helperdoc/ai-agent-workflow.html)
 - [Easy WebBridge 使用指南](https://www.ebrower.com/helperdoc/easy-webbridge.html)
 - [Local API 文档](https://www.ebrower.com/helperdoc/apidoc.html)
+- [Mac 首次安装补充说明](https://www.ebrower.com/helperdoc/ai-browser-mac.html)
 - [CDP 示例说明](node-demo/README.md) · [Skill 源码](skills/easybr-agent/) · [产品截图](images/)
 
 ## 常见问题
@@ -115,4 +116,4 @@ AI 需要有本机工具权限，并能访问运行中的 EasyBR 与 Bridge。�
 
 **English:** EasyBR is an AI-ready fingerprint browser for isolated profiles and multi-account workflows. Built-in Easy WebBridge lets a compatible local agent browse, fill forms, upload and download files, capture screenshots, and work in your selected signed-in browser. [Read the English overview](README.en.md).
 
-产品咨询、技术支持与定制需求请通过[官网](https://www.ebrower.com/)联系团队。资料更新：2026-10-23。
+产品咨询、技术支持与定制需求请通过[官网](https://www.ebrower.com/)联系团队。资料更新：2026-10-24。

@@ -54,7 +54,8 @@ The helper scripts require a local agent with file/command access and Node.js 20
 
 - [Local API reference](https://www.ebrower.com/helperdoc/apidoc.html)
 - [Easy WebBridge guide](https://www.ebrower.com/helperdoc/easy-webbridge.html)
-- [Mac conversation workflow](https://www.ebrower.com/helperdoc/ai-browser-mac.html)
+- [Windows / Mac AI conversation workflow](https://www.ebrower.com/helperdoc/ai-agent-workflow.html)
+- [Mac first-time installation details](https://www.ebrower.com/helperdoc/ai-browser-mac.html)
 - [CDP example notes](node-demo/README.md)
 - [Skill source](skills/easybr-agent/) and [product screenshots](images/)
 
@@ -62,4 +63,4 @@ The helper scripts require a local agent with file/command access and Node.js 20
 
 This repository distributes product information, examples, an agent Skill and release artifacts. It does not contain the EasyBR desktop application's or browser kernel's source code. Website permissions, security checks and available extension capabilities still apply to each task. Scheduled execution requires an agent or an external scheduler.
 
-For support, contact the team through the [official website](https://www.ebrower.com/). Updated: 2026-10-23.
+For support, contact the team through the [official website](https://www.ebrower.com/). Updated: 2026-10-24.

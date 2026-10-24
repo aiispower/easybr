@@ -1,8 +1,10 @@
 # 通过 AI 对话使用 EasyBR：接入、操作与排障
 
-[返回项目主页](../README.md) · [任务指令库](AI-PROMPTS.md) · [官网教程](https://www.ebrower.com/helperdoc/ai-browser-mac.html)
+[返回项目主页](../README.md) · [任务指令库](AI-PROMPTS.md) · [Windows / Mac 官网教程](https://www.ebrower.com/helperdoc/ai-agent-workflow.html)
 
 EasyBR 提供独立浏览器环境，Easy WebBridge 连接环境中的真实网页，AI Agent 负责理解任务、调用工具和核对结果。你可以从一句任务描述开始，逐步完成环境准备、网页登录、资料处理和问题排查。
+
+本指南适用于 **Windows 与 Apple 芯片 Mac**。账号、环境管理、WebBridge 和网页任务使用同一套流程；首次安装、文件路径和系统权限按所用系统处理。
 
 ## 使用前需要准备什么
 
@@ -20,7 +22,7 @@ Mac 可安装本仓库的 [easybr-agent Skill](../skills/easybr-agent/)，或下
 把下面的任务交给 Agent：
 
 ```text
-读取 easybr-agent Skill，检查 EasyBR 是否已安装、客户端版本、登录状态、环境列表和 Bridge。先报告哪一层已就绪，再处理缺失部分。需要下载时使用官方正式安装包；有账号就登录，没有账号时引导邮箱注册和验证码。保留现有环境。
+先识别这台电脑是 Windows 还是 Mac，检查 EasyBR 是否已安装、客户端版本、登录状态、环境列表和内置 Bridge。先报告哪一层已就绪，再处理缺失部分。需要下载时选择对应系统的官方正式安装包；有账号就登录，没有账号时引导邮箱注册和验证码。已安装的环境通过 Local API 和 Easy WebBridge 接入；Mac 首次接入可使用 easybr-agent Skill。保留现有环境。
 ```
 
 客户端未安装时，Mac Skill 可以辅助下载、核对和安装；需要系统权限时由用户完成。Windows 用户先从[官网下载中心](https://www.ebrower.com/down.html)安装对应版本，再接入 WebBridge。邮箱验证码、密码和设备验证只用于当次登录，不保存到任务文档、脚本或公开资料。
@@ -105,4 +107,4 @@ Agent 应核对：环境已经启动、扩展加载在这个环境中、Bridge �
 **能把后台任务做成专用 Skill 吗？**
 可以把稳定流程的输入、目标账号选择、工具调用、结果核对与失败恢复整理成业务 Skill，通过 WebBridge 复用连接。针对内容、CRM、店铺和开发者后台，应分别维护各自的流程。
 
-资料更新：2026-10-23。
+资料更新：2026-10-24。
