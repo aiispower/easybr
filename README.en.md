@@ -2,7 +2,7 @@
 
 **Work in isolated browser profiles through conversation.** EasyBR combines separate browser environments with a Local API and built-in Easy WebBridge. A compatible local AI agent can manage a selected environment, read pages, fill forms, upload and download files, capture screenshots, and continue workflows in an existing signed-in browser.
 
-[Website](https://www.ebrower.com/) · [Downloads](https://www.ebrower.com/down.html) · [GitHub releases](https://github.com/huakaikanzhe-web/easybr/releases) · [中文](README.md)
+[Website](https://www.ebrower.com/) · [Downloads](https://www.ebrower.com/down.html) · [GitHub releases](https://github.com/aiispower/easybr/releases) · [中文](README.md)
 
 ## What can you automate?
 
@@ -38,15 +38,15 @@ Connect to EasyBR and check the application version, sign-in state, environment 
 ## Downloads
 
 - [Official Windows and macOS downloads](https://www.ebrower.com/down.html)
-- [GitHub release directory](https://github.com/huakaikanzhe-web/easybr/releases)
-- [Mac ARM64 1.7.13 manual installation ZIP](https://github.com/huakaikanzhe-web/easybr/releases/download/mac-v1.7.13/easybrmac.zip)
-- [All Mac 1.7.13 assets and checksums](https://github.com/huakaikanzhe-web/easybr/releases/tag/mac-v1.7.13)
+- [GitHub release directory](https://github.com/aiispower/easybr/releases)
+- [Mac ARM64 1.7.13 manual installation ZIP](https://github.com/aiispower/easybr/releases/download/mac-v1.7.13/easybrmac.zip)
+- [All Mac 1.7.13 assets and checksums](https://github.com/aiispower/easybr/releases/tag/mac-v1.7.13)
 
 Windows assets use their own `windows-v<version>` release tags. Download only the artifact matching your operating system and architecture. Public downloads do not require a release token.
 
 ## Mac agent Skill
 
-Download [easybr-agent.zip](https://github.com/huakaikanzhe-web/easybr/raw/refs/heads/main/downloads/easybr-agent.zip), extract it, and place the complete `easybr-agent` directory in your agent's Skill folder. For Codex this normally is `~/.codex/skills/`.
+Download [easybr-agent.zip](https://github.com/aiispower/easybr/raw/refs/heads/main/downloads/easybr-agent.zip), extract it, and place the complete `easybr-agent` directory in your agent's Skill folder. For Codex this normally is `~/.codex/skills/`.
 
 The helper scripts require a local agent with file/command access and Node.js 20 or later. The built-in EasyBR Bridge has its own runtime. This Skill covers Mac onboarding; Windows users can connect an installed EasyBR environment using WebBridge and the Local API.
 

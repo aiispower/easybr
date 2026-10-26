@@ -3,7 +3,7 @@
 
 **EasyBR 是支持 AI 对话操作的多账号指纹浏览器。** 它为不同账号提供独立浏览器环境，结合 Local API、内置 Easy WebBridge 与兼容的 AI Agent，完成环境管理、网页读取、表单填写、文件上传下载、截图和排障。支持 Windows 与 Apple 芯片 Mac；免费版提供 5 个独立环境，当前功能与套餐以[官网](https://www.ebrower.com/)为准。
 
-[官网下载](https://www.ebrower.com/down.html) · [GitHub 海外下载](https://github.com/huakaikanzhe-web/easybr/releases) · [AI 上手指南](docs/AI-QUICKSTART.md) · [可复制任务指令](docs/AI-PROMPTS.md) · [English](README.en.md)
+[官网下载](https://www.ebrower.com/down.html) · [GitHub 海外下载](https://github.com/aiispower/easybr/releases) · [AI 上手指南](docs/AI-QUICKSTART.md) · [可复制任务指令](docs/AI-PROMPTS.md) · [English](README.en.md)
 
 > 这个公开仓库提供产品资料、截图、示例、Agent Skill 和正式安装包。桌面客户端与浏览器内核源码不在本仓库中。
 
@@ -73,15 +73,15 @@ EasyBR 1.7.8 及以后内置 Bridge 与扩展，启动环境时自动加载；�
 | 入口 | 用途 |
 | --- | --- |
 | [官网下载中心](https://www.ebrower.com/down.html) | Windows 与 Apple 芯片 Mac 的正式下载 |
-| [GitHub Releases](https://github.com/huakaikanzhe-web/easybr/releases) | 海外公开下载、按系统区分的版本和附件 |
-| [Mac 1.7.13 手动安装包](https://github.com/huakaikanzhe-web/easybr/releases/download/mac-v1.7.13/easybrmac.zip) | Mac ARM64 正式安装合集 |
-| [Mac 1.7.13 全部附件](https://github.com/huakaikanzhe-web/easybr/releases/tag/mac-v1.7.13) | App 更新 ZIP、DMG、校验文件和更新清单 |
+| [GitHub Releases](https://github.com/aiispower/easybr/releases) | 海外公开下载、按系统区分的版本和附件 |
+| [Mac 1.7.13 手动安装包](https://github.com/aiispower/easybr/releases/download/mac-v1.7.13/easybrmac.zip) | Mac ARM64 正式安装合集 |
+| [Mac 1.7.13 全部附件](https://github.com/aiispower/easybr/releases/tag/mac-v1.7.13) | App 更新 ZIP、DMG、校验文件和更新清单 |
 
 下载 Release 附件不需要发布令牌。Windows 安装包在对应的 `windows-v<版本>` Release 下发布；没有列出的系统或架构请先查看官网下载中心，不要把 Mac ARM64 包用于 Windows 或 Intel Mac。
 
 ## 安装 easybr-agent Skill（Mac）
 
-1. 下载 [easybr-agent.zip](https://github.com/huakaikanzhe-web/easybr/raw/refs/heads/main/downloads/easybr-agent.zip) 并解压。
+1. 下载 [easybr-agent.zip](https://github.com/aiispower/easybr/raw/refs/heads/main/downloads/easybr-agent.zip) 并解压。
 2. 将完整的 `easybr-agent` 文件夹放入兼容 Agent 的 Skill 目录。Codex 默认目录为 `~/.codex/skills/`，其他工具以其文档为准。
 3. 让 Agent 读取 Skill，按[AI 上手指南](docs/AI-QUICKSTART.md)检查连接并开始任务。
 

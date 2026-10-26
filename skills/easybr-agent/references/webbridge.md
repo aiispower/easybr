@@ -44,4 +44,4 @@ node scripts/easybr.mjs bridge-command --browser-id '<准确browserId>' --action
 
 普通网页任务先读再操作，不擅自改指纹、代理、时区和账号设置。实际安装包的扩展可能未声明 `backgroundExecution`，缺少该字段时只记为能力未知，不能声称已验证后台策略；仍使用明确 tabId，普通步骤不主动激活或聚焦。导航后刷新快照；写操作结果未知时只读查询状态，不重复上传或提交。任务在成功和失败两条路径都以 `close_session` 关闭本次拥有的标签组，不能关用户借用的标签或其他任务页。
 
-官方完整协议和扩展安装：[Easy WebBridge](https://github.com/xxjrq/easy-webbridge)、[官网连接说明](https://www.ebrower.com/helperdoc/easy-webbridge.html)。EasyBR 1.7.8 及以后通常已内置扩展；实际以目标环境在线和能力回执为准。需要手动加载时在目标环境 `chrome://extensions` 打开开发者模式，加载官方仓库的 `extension/` 目录，不覆盖或清空 profile。
+官方完整协议和扩展安装：[Easy WebBridge](https://github.com/aiispower/easy-webbridge)、[官网连接说明](https://www.ebrower.com/helperdoc/easy-webbridge.html)。EasyBR 1.7.8 及以后通常已内置扩展；实际以目标环境在线和能力回执为准。需要手动加载时在目标环境 `chrome://extensions` 打开开发者模式，加载官方仓库的 `extension/` 目录，不覆盖或清空 profile。
