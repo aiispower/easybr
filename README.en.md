@@ -39,8 +39,10 @@ Connect to EasyBR and check the application version, sign-in state, environment 
 
 - [Official Windows and macOS downloads](https://www.ebrower.com/down.html)
 - [GitHub release directory](https://github.com/aiispower/easybr/releases)
-- [Mac ARM64 1.7.15 manual installation ZIP](https://github.com/aiispower/easybr/releases/download/mac-v1.7.15/easybrmac.zip)
-- [All Mac 1.7.15 assets and checksums](https://github.com/aiispower/easybr/releases/tag/mac-v1.7.15)
+- [Mac ARM64 1.7.16 manual installation ZIP](https://github.com/aiispower/easybr/releases/download/mac-v1.7.16/easybrmac.zip)
+- [All Mac 1.7.16 assets and checksums](https://github.com/aiispower/easybr/releases/tag/mac-v1.7.16)
+
+Mac 1.7.16 can launch when IP lookup fails, temporarily disabling WebRTC for that launch while preserving the saved environment settings.
 
 Windows assets use their own `windows-v<version>` release tags. Download only the artifact matching your operating system and architecture. Public downloads do not require a release token.
 
