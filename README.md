@@ -74,12 +74,10 @@ EasyBR 1.7.8 及以后内置 Bridge 与扩展，启动环境时自动加载；�
 | --- | --- |
 | [官网下载中心](https://www.ebrower.com/down.html) | Windows 与 Apple 芯片 Mac 的正式下载 |
 | [GitHub Releases](https://github.com/aiispower/easybr/releases) | 海外公开下载、按系统区分的版本和附件 |
-| [Mac 1.7.24 手动安装包](https://github.com/aiispower/easybr/releases/download/mac-v1.7.24/easybrmac.zip) | Mac ARM64 正式安装合集 |
-| [Mac 1.7.24 全部附件](https://github.com/aiispower/easybr/releases/tag/mac-v1.7.24) | App 更新 ZIP、DMG、校验文件和更新清单 |
+| [Mac 1.7.23 手动安装包](https://github.com/aiispower/easybr/releases/download/mac-v1.7.23/easybrmac.zip) | Mac ARM64 正式安装合集 |
+| [Mac 1.7.23 全部附件](https://github.com/aiispower/easybr/releases/tag/mac-v1.7.23) | App 更新 ZIP、DMG、校验文件和更新清单 |
 
-Mac 1.7.24 新增自定义多标签、标签筛选和环境快捷编辑，补齐中英文显示与 AI 排障指南；改善批量启动、关闭和多显示器排列，支持负间距叠放，并修复目录迁移的数据范围及凭证文件组处理。旧环境默认行为和云同步范围保持。
-
-继续支持导入本地解压后的扩展文件夹：选择直接包含 `manifest.json` 的目录后，自动识别名称、版本和图标，保存后为环境配置使用。导入保留源文件夹和已有扩展，并修复失败后的重试与过期选择处理；此前 IP 查询失败的启动回退功能仍保留。
+Mac 1.7.23 支持导入本地解压后的扩展文件夹：选择直接包含 `manifest.json` 的目录后，自动识别名称、版本和图标，保存后为环境配置使用。导入保留源文件夹和已有扩展，并修复失败后的重试与过期选择处理；此前 IP 查询失败的启动回退功能仍保留。
 
 下载 Release 附件不需要发布令牌。Windows 安装包在对应的 `windows-v<版本>` Release 下发布；没有列出的系统或架构请先查看官网下载中心，不要把 Mac ARM64 包用于 Windows 或 Intel Mac。
 
